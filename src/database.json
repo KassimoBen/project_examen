@@ -1,0 +1,40 @@
+{
+  "mention": [
+    { "id": 1, "nom_mention": "Informatique" },
+    { "id": 2, "nom_mention": "Mathematiques" }
+  ],
+  "parcour": [
+    { "id": 1, "nom_parcours": "Développement Web" },
+    { "id": 2, "nom_parcours": "Data Science" }
+  ],
+  "niveau": [
+    { "id": 1, "nom_niveau": "Licence 1" },
+    { "id": 2, "nom_niveau": "Licence 2" }
+  ],
+  "etudiant": [
+    {
+      "id": 1,
+      "nom_etudiant": "Jean Dupont",
+      "mention_id": 1,
+      "parcours_id": 1,
+      "niveau_id": 1,
+      "age": 20
+    },
+    {
+      "id": 2,
+      "nom_etudiant": "Marie Curie",
+      "mention_id": 2,
+      "parcours_id": 2,
+      "niveau_id": 2,
+      "age": 22
+    },
+    {
+      "id": 3,
+      "nom_etudiant": "KASSIMO Ben Abdillah",
+      "mention_id": 2,
+      "parcours_id": 2,
+      "niveau_id": 2,
+      "age": 22
+    }
+  ]
+}
